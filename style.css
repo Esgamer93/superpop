@@ -77,5 +77,6 @@ html{scroll-padding-top:105px}
 .stars-section .section-heading:after{content:"✦";color:#6f3cc3;font-size:2.1rem;line-height:1;margin-left:auto;transform:rotate(10deg);opacity:.55}
 
 /* Fotos alternativas para que las dos apariciones de cada grupo sean distintas */
-.mock-cover{background-color:#080707;background-image:linear-gradient(0deg,rgba(20,3,24,.96) 0,rgba(20,3,24,.38) 48%,transparent 72%),url("bsb-cover-final.jpg");background-position:center,center top;background-size:100% 100%,100% auto;background-repeat:no-repeat}
-.personal-cover{background-color:#2b0836;background-image:linear-gradient(0deg,rgba(40,8,47,.98) 0,rgba(40,8,47,.35) 48%,transparent 70%),url("spicegirls-cover-final.jpg");background-position:center,center top;background-size:100% 100%,100% auto;background-repeat:no-repeat}
+.mock-cover{height:400px;background-color:#080707;background-image:linear-gradient(0deg,rgba(20,3,24,.96) 0,rgba(20,3,24,.34) 52%,transparent 74%),url("bsb-cover-final.jpg");background-position:center,center top;background-size:100% 100%,100% auto;background-repeat:no-repeat}
+.personal-cover{aspect-ratio:4/4.6;background-color:#2b0836;background-image:linear-gradient(0deg,rgba(40,8,47,.98) 0,rgba(40,8,47,.3) 52%,transparent 72%),url("spicegirls-cover-final.jpg");background-position:center,center top;background-size:100% 100%,auto 64%;background-repeat:no-repeat}
+.personal-cover .personal-headline{bottom:3rem}
