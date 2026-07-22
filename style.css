@@ -68,3 +68,10 @@ html{scroll-padding-top:105px}
 /* Un toque extra de color para la página de historia */
 .intro{background:#ead8f2;border-top:1px solid rgba(255,59,157,.16);border-bottom:1px solid rgba(111,60,195,.16)}
 .intro .note{background:#fff4bd;border-top:8px solid var(--pink);box-shadow:10px 10px 0 #d8b9f4}
+
+/* Tres destellos decorativos para la página de estrellas */
+.stars-section{position:relative;overflow:hidden;isolation:isolate}
+.stars-section>*{position:relative;z-index:1}
+.stars-section:before{content:"★";position:absolute;right:3.5%;top:2.3rem;color:#ffe45e;font-size:5rem;line-height:1;transform:rotate(13deg);opacity:.72;z-index:0;pointer-events:none}
+.stars-section:after{content:"★";position:absolute;left:2.2%;bottom:2rem;color:#ff3b9d;font-size:3.2rem;line-height:1;transform:rotate(-16deg);opacity:.25;z-index:0;pointer-events:none}
+.stars-section .section-heading:after{content:"✦";color:#6f3cc3;font-size:2.1rem;line-height:1;margin-left:auto;transform:rotate(10deg);opacity:.55}
