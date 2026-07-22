@@ -35,3 +35,14 @@ footer{background:var(--ink);color:#fff;text-align:center;padding:3rem 1rem;font
 .year-tab{background:#fffaf0}
 .consultorio{background:repeating-linear-gradient(0deg,#fff8e9 0,#fff8e9 31px,#efcfe2 32px)}
 .note,.fashion-grid article,.quiz-card,.club-card,.scrap-grid article{background:#fffaf2}
+
+/* Contraste pastel reforzado tras revisar la edición en pantalla */
+body{background:#f7ddea}
+.top-bar{background:rgba(255,225,241,.96)}
+.hero{background:radial-gradient(circle at 15% 18%,rgba(255,59,157,.18) 0 3px,transparent 4px),linear-gradient(135deg,#ffe8d4 0%,#ffd9ec 55%,#e9d8ff 100%);background-size:42px 42px,auto}
+.pop-files{background:radial-gradient(circle at 12% 18%,rgba(255,255,255,.72) 0 3px,transparent 4px),linear-gradient(145deg,#f6cfe3 0%,#e4d3fb 100%);background-size:38px 38px,auto}
+#estrellas{background:linear-gradient(155deg,#ffe3bd 0%,#f5d8f0 100%)}
+.time-machine{background:linear-gradient(135deg,#dceeff 0%,#eee1ff 58%,#ffe8b8 100%)}
+.horoscope{background:linear-gradient(145deg,#efd9ff 0%,#ffdce9 100%)}
+.consultorio{background:repeating-linear-gradient(0deg,#fff0d9 0,#fff0d9 31px,#cfb9ef 32px)}
+.pop-files,.stars-section,.time-machine,.horoscope,.consultorio{border-top:1px solid rgba(111,60,195,.14);border-bottom:1px solid rgba(111,60,195,.14)}
