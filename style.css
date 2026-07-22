@@ -61,3 +61,6 @@ html{scroll-padding-top:105px}
 .pop-profile:nth-child(3) img{object-position:center 28%}
 .pop-profile:nth-child(4) img{object-position:center 18%}
 @media(max-width:800px){.pop-grid{grid-template-columns:1fr;grid-auto-rows:430px}}
+
+/* Portada a sangre: fondo continuo como el resto de la revista */
+.hero{max-width:none;width:100%;padding-left:max(2rem,calc((100% - 1180px)/2));padding-right:max(2rem,calc((100% - 1180px)/2));border-radius:0}
