@@ -50,3 +50,14 @@ body{background:#f7ddea}
 .letter.peach{background:#ffe4d6;box-shadow:10px 12px 0 #ff8abf;transform:rotate(.7deg)}
 .letter.mint{background:#dcf8ef;box-shadow:10px 12px 0 #6f3cc3;transform:rotate(-.6deg)}
 .letter:nth-child(n+3){margin-top:1rem}
+
+/* Reportaje: cuadrícula estable y encuadres legibles */
+html{scroll-padding-top:105px}
+.section{scroll-margin-top:105px}
+.pop-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:420px;gap:1.4rem}
+.pop-profile,.pop-profile.big,.pop-profile.wide{grid-column:span 1;grid-row:span 1}
+.pop-profile:nth-child(1) img{object-position:center 24%}
+.pop-profile:nth-child(2) img{object-position:center 30%}
+.pop-profile:nth-child(3) img{object-position:center 28%}
+.pop-profile:nth-child(4) img{object-position:center 18%}
+@media(max-width:800px){.pop-grid{grid-template-columns:1fr;grid-auto-rows:430px}}
